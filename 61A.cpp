@@ -26,4 +26,5 @@ void solve(string a, string b){
     for(int i=0;i<a.length();i++){
         cout<<ans[i];
     }
+    cout<<endl;
 }
