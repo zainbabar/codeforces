@@ -10,6 +10,7 @@ public class hq9 {
             }
         }
         System.out.println("NO");
+        scan.close();
     }
 }
 

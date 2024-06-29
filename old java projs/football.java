@@ -22,5 +22,6 @@ public class football {
             }
         }
         System.out.println("NO");
+        scan.close();
     }
 }
