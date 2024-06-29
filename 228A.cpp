@@ -3,13 +3,12 @@
 using namespace std;
 
 int main(){
-  int s[4];
+  set<int> s;
   for(int i=0;i<4;i++){
-    cin>>s[i];
+    int x; 
+    cin>>x;
+    s.insert(x);
   }
-  int ans=0;
-
-  
-  cout<<4-ans<<endl;
-  
-}
+  cout<<4-s.size()<<endl;
+  return 0;
+ }
